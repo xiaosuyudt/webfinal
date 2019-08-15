@@ -1,0 +1,43 @@
+html{
+	width: 100vw;
+	height: 100vh;
+	margin-bottom: 0 auto;
+}
+
+body{
+	background-color: black;
+}
+
+.b{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 60px;
+  color: #ADFF2F;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.b:hover{
+	color: hotpink;
+	background-color: #ADFF2F;
+}
+
+.back{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+  color: lime;
+
+}

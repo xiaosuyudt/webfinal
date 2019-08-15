@@ -1,0 +1,90 @@
+html{
+	width: 100vw;
+	height: 100vh;
+	margin-bottom: 0 auto;
+}
+
+body{
+	background-color: black;
+}
+
+
+
+.wrapper1{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 30px;
+
+	/*grid-template-areas:
+	"tougue b"
+	"c d";*/
+}
+
+.wrapper2{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 30px;
+}
+
+.box{
+	background-color: white;
+	color: white;
+	padding: 30px;
+	font-size:100%;
+	border-radius: 12px;
+}
+
+/*.itougue{
+	
+	background-color: grey;
+}
+
+.tougue{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	
+	background-color: grey;
+}*/
+
+
+a:link{
+  color: hotpink;
+  text-decoration-line: none;
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+}
+
+a:hover{
+	color: lime;
+	background-color: #ADFF2F;
+}
+
+a:visited{
+	color: hotpink;
+  text-decoration-line: none;
+}
+
+h1{
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+  color: black;
+
+}
+
+h1:hover{
+  transform: skewX(20deg);
+}
+
+#boxImage img{
+	height: 50%;
+}
+
+h2{
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+

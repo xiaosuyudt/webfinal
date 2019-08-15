@@ -1,0 +1,45 @@
+html{
+	width: 100vw;
+	height: 100vh;
+	margin-bottom: 0 auto;
+}
+
+body{
+	background-color: black;
+}
+
+.b{
+  text-align: center; 
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+  color: white;
+
+}
+
+.a{
+  text-align: center; 
+  font-family: 'Anton', sans-serif;
+  font-size: 60px;
+  color: hotpink;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.back{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+  color: lime;
+
+}
+
+.b:hover{
+  color: #00FF7F;
+  background-color:  hotpink;
+}
+
